@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#section {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg.png');
+}
+#section .downloadbox {
+	width: 74%;
+	margin: 40px auto 0px;
+	position: relative;
+}
+#section .downloadbox img {
+	width: 100%;
+}
+#section .downloadbox .download {
+	position:absolute;
+	top:10%;
+	left: 50%;
+	width: 52%;
+	height:8.7%;
+	margin: 0px 0px 0px -22%;
+	background-color: #f00;
+}
+
+
